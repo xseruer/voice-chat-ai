@@ -1,0 +1,8 @@
+__pycache__/*
+.venv/*
+.nlstoken
+*.pyc
+./data/wav/
+./data/sqlite.db
+config.py
+.DS_Store
