@@ -46,7 +46,7 @@ python3 main.py
 
 ### 三、高德 IP定位、天气查询
 官网：https://lbs.amap.com/
-![console-amap](doc/console.amap.png)
+![console-amap](doc/console-amap.png)
 
 
 ## 参考项目
