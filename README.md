@@ -11,7 +11,14 @@ python3 -m venv .venv
 # 激活虚拟环境
 source .venv/bin/activate
 # 安装依赖
-pip install requests pvporcupine simpleaudio SpeechRecognition pvrecorder
+pip install requests pvporcupine SpeechRecognition pvrecorder
+
+# 下面2个依赖库需要先安装对应的开发库，否则会报错。不同的系统安装命令不一样，可以将错误直接发给chatGPT即可解决
+# 需要先安装开发库，如Debian/Ubuntu：apt-get install libasound2-dev
+pip simpleaudio
+# 需要先安装开发库，如Debian/Ubuntu：apt-get install portaudio19-dev
+pip pyaudio
+
 # 修改各种Key和配置项
 vim config.py
 # 启动
