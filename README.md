@@ -16,7 +16,7 @@ pip install requests pvporcupine SpeechRecognition pvrecorder
 # 下面2个依赖库需要先安装对应的开发库，否则会报错。不同的系统安装命令不一样，也可以将错误直接发给chatGPT解决
 # MacOS：brew install portaudio
 # Linux：apt-get install python3-dev libasound2-dev portaudio19-dev
-pip simpleaudio pyaudio
+pip install simpleaudio pyaudio
 
 # 修改各种Key和配置项
 vim config.py
